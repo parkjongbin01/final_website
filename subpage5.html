@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국인 선수 기록</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: white;
+        }
+        .clear {
+            clear: both;
+        }
+        [class*="c_"] {
+            float: left;
+            padding: 10px;
+        }
+        /* 너비가 600픽셀 미만인 디바이스를 위한 기본 설정 */
+        [class*="c_"] {
+            width: 100%;
+        }
+        /* 너비가 600픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 600px) {
+            .c_m_1 {width: 8.33%;}
+            .c_m_2 {width: 16.66%;}
+            .c_m_3 {width: 25%;}
+            .c_m_4 {width: 33.33%;}
+            .c_m_5 {width: 41.66%;}
+            .c_m_6 {width: 50%;}
+            .c_m_7 {width: 58.33%;}
+            .c_m_8 {width: 66.66%;}
+            .c_m_9 {width: 75%;}
+            .c_m_10 {width: 83.33%;}
+            .c_m_11 {width: 91.66%;}
+            .c_m_12 {width: 100%;}
+        }
+        /* 너비가 768픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 768px) {
+            .c_1 {width: 8.33%;}
+            .c_2 {width: 16.66%;}
+            .c_3 {width: 25%;}
+            .c_4 {width: 33.33%;}
+            .c_5 {width: 41.66%;}
+            .c_6 {width: 50%;}
+            .c_7 {width: 58.33%;}
+            .c_8 {width: 66.66%;}
+            .c_9 {width: 75%;}
+            .c_10 {width: 83.33%;}
+            .c_11 {width: 91.66%;}
+            .c_12 {width: 100%;}
+        }
+        header {
+            height: 80px;
+            border-bottom: solid 5px green;
+        }
+        header img {
+            float: left;
+        }
+        header h2 {
+            float: left;
+            color: green;
+            margin: 20px 0 0 5px;
+        }
+        aside {
+            background-color: white;
+            float: left;
+        }
+        nav {
+            margin: 5px;
+            margin-bottom: 50px;
+        }
+        nav li {
+            padding: 10px;
+            margin: 5px;
+            background-color: green;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+            color: white;
+        }
+        main {
+            border-left: solid 5px green;
+            float: left;
+            margin: 5px;
+        }
+        main h2 {
+            margin-left: 20px;
+        }
+        main li {
+            text-align: left;
+        }
+        main .name {
+            font-size: 120%;
+            font-weight: bold;
+        }
+        section {
+            margin: 5px;
+        }
+        section img {
+            width: 280px;
+            height: 210px;
+        }
+        section div {
+            float: left;
+            margin: 5px;
+        }
+        footer {
+            height: 80px;
+            margin: 5px;
+            background-color: #eeeeee;
+        }
+        footer h3 {
+            padding-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="c12">
+        <a href="index.html"><img src="logo.jpg"></a>
+        <h2>Football Dictionary</h2>
+    </header>
+    <aside class="c_m_12 c_3">
+    <nav>
+        <ul>
+            <li><a href="subpage1.html">우승 트로피</a></li>
+            <li><a href="subpage2.html">역대 공인구</a></li>
+            <li><a href="subpage3.html">역대 우승팀 순위</a></li>
+            <li><a href="subpage4.html">역대 득점 순위</a></li>
+            <li><a href="subpage5.html">한국인 선수 기록</a></li>
+        </ul>
+    </nav>
+    </aside>
+    <main class="c_m_9 c_6">
+        <h2>한국인 선수 기록</h2>
+        <section>
+            <div><img src="son.jpg"></div>
+            <div>
+                <ul>
+                    <li class="name">손흥민</li>
+                    <li><br></li>
+                    <li>소속팀: 토트넘</li>
+                    <li>최고성적: 우승</li>
+                    <li>기록: 26경기 9득점</li>
+                    <li><br></li>
+                    <li>★ 한국인 선수 유로파리그 첫 멀티골 ★</li>
+                    <li>★ 한국인 선수 최초 주장으로서 우승 ★</li>
+                </ul>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <section>
+            <div><img src="cha.jpg"></div>
+            <div>
+                <ul>
+                    <li class="name">차범근</li>
+                    <li><br></li>
+                    <li>소속팀: 프랑크푸르트, 레버쿠젠</li>
+                    <li>최고성적: 우승</li>
+                    <li>기록: 37경기 10득점</li>
+                    <li><br></li>
+                    <li>★ 한국인 선수 최초 결승전 득점 ★</li>
+                </ul>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <section>
+            <div><img src="park.jpg"></div>
+            <div>
+                <ul>
+                    <li class="name">박지성</li>
+                    <li><br></li>
+                    <li>소속팀: 맨체스터 유나이티드, psv</li>
+                    <li>최고성적: 8깅</li>
+                    <li>기록: 10경기 0득점</li>
+                </ul>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <section>
+            <div><img src="lee.jpg"></div>
+            <div>
+                <ul>
+                    <li class="name">이강인</li>
+                    <li><br></li>
+                    <li>소속팀: 발렌시아 cf</li>
+                    <li>최고성적: 4강</li>
+                    <li>기록: 2경기 0득점</li>
+                    <li><br></li>
+                    <li>★ 한국인 선수 최연소 유로파 리그 데뷔 ★</li>
+                </ul>
+            </div>
+        </section>
+        <div class="clear"></div>
+        <section>
+            <div><img src="ki.jpg"></div>
+            <div>
+                <ul>
+                    <li class="name">기성용</li>
+                    <li><br></li>
+                    <li>소속팀: 셀틱</li>
+                    <li>최고성적: 조별리그</li>
+                    <li>기록: 5경기 1득점</li>
+                    <li><br></li>
+                    <li>★ 한국인 선수 유로파리그 첫 pk골 ★</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <div class="clear"></div>
+    <footer class="c12">
+        <h3>COPYRIGHT(C) Football Dictionary All Rights Reserved.</h3>
+    </footer>
+</body>
+</html>

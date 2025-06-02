@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUROPA LEAGUE</title>
+        <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: white;
+        }
+        .clear {
+            clear: both;
+        }
+        [class*="c_"] {
+            float: left;
+            padding: 10px;
+        }
+        /* 너비가 600픽셀 미만인 디바이스를 위한 기본 설정 */
+        [class*="c_"] {
+            width: 100%;
+        }
+        /* 너비가 600픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 600px) {
+            .c_m_1 {width: 8.33%;}
+            .c_m_2 {width: 16.66%;}
+            .c_m_3 {width: 25%;}
+            .c_m_4 {width: 33.33%;}
+            .c_m_5 {width: 41.66%;}
+            .c_m_6 {width: 50%;}
+            .c_m_7 {width: 58.33%;}
+            .c_m_8 {width: 66.66%;}
+            .c_m_9 {width: 75%;}
+            .c_m_10 {width: 83.33%;}
+            .c_m_11 {width: 91.66%;}
+            .c_m_12 {width: 100%;}
+        }
+        /* 너비가 768픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 768px) {
+            .c_1 {width: 8.33%;}
+            .c_2 {width: 16.66%;}
+            .c_3 {width: 25%;}
+            .c_4 {width: 33.33%;}
+            .c_5 {width: 41.66%;}
+            .c_6 {width: 50%;}
+            .c_7 {width: 58.33%;}
+            .c_8 {width: 66.66%;}
+            .c_9 {width: 75%;}
+            .c_10 {width: 83.33%;}
+            .c_11 {width: 91.66%;}
+            .c_12 {width: 100%;}
+        }
+        header {
+            height: 80px;
+            border-bottom: solid 5px green;
+        }
+        header img {
+            float: left;
+        }
+        header h2 {
+            float: left;
+            color: green;
+            margin: 20px 0 0 5px;
+        }
+        aside {
+            background-color: white;
+            float: left;
+        }
+        nav {
+            margin: 5px;
+            margin-bottom: 50px;
+        }
+        nav li {
+            padding: 10px;
+            margin: 5px;
+            background-color: green;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+            color: white;
+        }
+        main {
+            border-left: solid 5px green;
+            float: left;
+            margin: 5px;
+        }
+        main h2, div {
+            margin-left: 20px;
+        }
+        footer {
+            height: 80px;
+            margin: 5px;
+            background-color: #eeeeee;
+        }
+        footer h3 {
+            padding-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="c12">
+        <a href="index.html"><img src="logo.jpg"></a>
+        <h2>Football Dictionary</h2>
+    </header>
+    <aside class="c_m_12 c_3">
+    <nav>
+        <ul>
+            <li><a href="subpage1.html">우승 트로피</a></li>
+            <li><a href="subpage2.html">역대 공인구</a></li>
+            <li><a href="subpage3.html">역대 우승팀 순위</a></li>
+            <li><a href="subpage4.html">역대 득점 순위</a></li>
+            <li><a href="subpage5.html">한국인 선수 기록</a></li>
+        </ul>
+    </nav>
+    </aside>
+    <main class="c_m_9 c_6">
+        <h2>유로파 리그(EUROPA LEAGUE)</h2> <br>
+        <div><img src="europa.jpg">
+        <img src="europa2.jpg"></div>
+        <div>UEFA 유로파리그(UEFA Europa League ;UEL)는 1971년부터 UEFA가 주관하는 유럽 축구 클럽들을 위한 대회입니다.
+        UEFA 챔피언스리그에 이어 2번째로 큰 대회로써 각국의 리그와 컵 대회 성적으로 출전 팀이 결정됩니다. 1971년에 인터시티스
+        페어스컵을 대체하기 위한 차원에서 시작되었으며 1999년에는 UEFA 컵위너스컵을 통합했습니다. 다만 UEFA에서는 인터시티스
+        페어스컵의 기록을 UEFA 유로파리그의 기록으로 인정하지 않습니다. 2009년 7월부터 UEFA컵(UEFA Cup)에서 UEFA 유로파리그라는
+        현재의 명칭으로 바뀌었습니다.</div>
+    </main>
+    <div class="clear"></div>
+    <footer class="c12">
+        <h3>COPYRIGHT(C) Football Dictionary All Rights Reserved.</h3>
+    </footer>
+</body>
+</html>

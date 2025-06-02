@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>역대 득점 순위</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: white;
+        }
+        .clear {
+            clear: both;
+        }
+        [class*="c_"] {
+            float: left;
+            padding: 10px;
+        }
+        /* 너비가 600픽셀 미만인 디바이스를 위한 기본 설정 */
+        [class*="c_"] {
+            width: 100%;
+        }
+        /* 너비가 600픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 600px) {
+            .c_m_1 {width: 8.33%;}
+            .c_m_2 {width: 16.66%;}
+            .c_m_3 {width: 25%;}
+            .c_m_4 {width: 33.33%;}
+            .c_m_5 {width: 41.66%;}
+            .c_m_6 {width: 50%;}
+            .c_m_7 {width: 58.33%;}
+            .c_m_8 {width: 66.66%;}
+            .c_m_9 {width: 75%;}
+            .c_m_10 {width: 83.33%;}
+            .c_m_11 {width: 91.66%;}
+            .c_m_12 {width: 100%;}
+        }
+        /* 너비가 768픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 768px) {
+            .c_1 {width: 8.33%;}
+            .c_2 {width: 16.66%;}
+            .c_3 {width: 25%;}
+            .c_4 {width: 33.33%;}
+            .c_5 {width: 41.66%;}
+            .c_6 {width: 50%;}
+            .c_7 {width: 58.33%;}
+            .c_8 {width: 66.66%;}
+            .c_9 {width: 75%;}
+            .c_10 {width: 83.33%;}
+            .c_11 {width: 91.66%;}
+            .c_12 {width: 100%;}
+        }
+        header {
+            height: 80px;
+            border-bottom: solid 5px green;
+        }
+        header img {
+            float: left;
+        }
+        header h2 {
+            float: left;
+            color: green;
+            margin: 20px 0 0 5px;
+        }
+        aside {
+            background-color: white;
+            float: left;
+        }
+        nav {
+            margin: 5px;
+            margin-bottom: 50px;
+        }
+        nav li {
+            padding: 10px;
+            margin: 5px;
+            background-color: green;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+            color: white;
+        }
+        main {
+            border-left: solid 5px green;
+            float: left;
+            margin: 5px;
+        }
+        main h2 {
+            margin-left: 20px;
+        }
+        section {
+            margin: 5px;
+        }
+        section img {
+            width: 200px;
+            height: 150px;
+        }
+        section div {
+            text-align: center;
+            float: left;
+            margin: 5px;
+        }
+        footer {
+            height: 80px;
+            margin: 5px;
+            background-color: #eeeeee;
+        }
+        footer h3 {
+            padding-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="c12">
+        <a href="index.html"><img src="logo.jpg"></a>
+        <h2>Football Dictionary</h2>
+    </header>
+    <aside class="c_m_12 c_3">
+    <nav>
+        <ul>
+            <li><a href="subpage1.html">우승 트로피</a></li>
+            <li><a href="subpage2.html">역대 공인구</a></li>
+            <li><a href="subpage3.html">역대 우승팀 순위</a></li>
+            <li><a href="subpage4.html">역대 득점 순위</a></li>
+            <li><a href="subpage5.html">한국인 선수 기록</a></li>
+        </ul>
+    </nav>
+    </aside>
+    <main class="c_m_9 c_6">
+        <h2>역대 득점 순위</h2>
+        <section>
+            <div><img src="player1.jpg"><br>1위: 오바메양<br>34득점</div>
+            <div><img src="player2.jpg"><br>2위: 라르손<br>31득점</div>
+            <div><img src="player3.jpg"><br>3위: 팔카오<br>30득점</div>
+            <div><img src="player4.jpg"><br>4위: 디터 뮐러<br>29득점</div>
+        </section>
+        <section>
+            <div><img src="player5.jpg"><br>5위: 에딘 제코<br>28득점</div>
+            <div><img src="player6.jpg"><br>공동 6위: 브루노 페르난데스<br>27득점</div>
+            <div><img src="player7.jpg"><br>공동 6위: 루카쿠<br>27득점</div>
+            <div><img src="player8.jpg"><br>공동 8위: 라카제트<br>26득점</div>
+        </section>
+        <section>
+            <div><img src="player9.jpg"><br>공동 8위: 아리츠 아두리스<br>26득점</div>
+            <div><img src="player10.jpg"><br>공동 10위: 무나스 다부르<br>24득점</div>
+            <div><img src="player11.jpg"><br>공동 10위: 케빈 가메이로<br>24득점</div>
+        </section>
+    </main>
+    <div class="clear"></div>
+    <footer class="c12">
+        <h3>COPYRIGHT(C) Football Dictionary All Rights Reserved.</h3>
+    </footer>
+</body>
+</html>

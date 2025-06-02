@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>역대 공인구</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: white;
+        }
+        .clear {
+            clear: both;
+        }
+        [class*="c_"] {
+            float: left;
+            padding: 10px;
+        }
+        /* 너비가 600픽셀 미만인 디바이스를 위한 기본 설정 */
+        [class*="c_"] {
+            width: 100%;
+        }
+        /* 너비가 600픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 600px) {
+            .c_m_1 {width: 8.33%;}
+            .c_m_2 {width: 16.66%;}
+            .c_m_3 {width: 25%;}
+            .c_m_4 {width: 33.33%;}
+            .c_m_5 {width: 41.66%;}
+            .c_m_6 {width: 50%;}
+            .c_m_7 {width: 58.33%;}
+            .c_m_8 {width: 66.66%;}
+            .c_m_9 {width: 75%;}
+            .c_m_10 {width: 83.33%;}
+            .c_m_11 {width: 91.66%;}
+            .c_m_12 {width: 100%;}
+        }
+        /* 너비가 768픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 768px) {
+            .c_1 {width: 8.33%;}
+            .c_2 {width: 16.66%;}
+            .c_3 {width: 25%;}
+            .c_4 {width: 33.33%;}
+            .c_5 {width: 41.66%;}
+            .c_6 {width: 50%;}
+            .c_7 {width: 58.33%;}
+            .c_8 {width: 66.66%;}
+            .c_9 {width: 75%;}
+            .c_10 {width: 83.33%;}
+            .c_11 {width: 91.66%;}
+            .c_12 {width: 100%;}
+        }
+        header {
+            height: 80px;
+            border-bottom: solid 5px green;
+        }
+        header img {
+            float: left;
+        }
+        header h2 {
+            float: left;
+            color: green;
+            margin: 20px 0 0 5px;
+        }
+        aside {
+            background-color: white;
+            float: left;
+        }
+        nav {
+            margin: 5px;
+            margin-bottom: 50px;
+        }
+        nav li {
+            padding: 10px;
+            margin: 5px;
+            background-color: green;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+            color: white;
+        }
+        main {
+            border-left: solid 5px green;
+            float: left;
+            margin: 5px;
+        }
+        main h2 {
+            margin-left: 20px;
+        }
+        section {
+            margin: 5px;
+        }
+        section img {
+            width: 120px;
+            height: 120px;
+        }
+        section div {
+            text-align: center;
+            float: left;
+            margin: 5px;
+        }
+        footer {
+            height: 80px;
+            margin: 5px;
+            background-color: #eeeeee;
+        }
+        footer h3 {
+            padding-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="c12">
+        <a href="index.html"><img src="logo.jpg"></a>
+        <h2>Football Dictionary</h2>
+    </header>
+    <aside class="c_m_12 c_3">
+    <nav>
+        <ul>
+            <li><a href="subpage1.html">우승 트로피</a></li>
+            <li><a href="subpage2.html">역대 공인구</a></li>
+            <li><a href="subpage3.html">역대 우승팀 순위</a></li>
+            <li><a href="subpage4.html">역대 득점 순위</a></li>
+            <li><a href="subpage5.html">한국인 선수 기록</a></li>
+        </ul>
+    </nav>
+    </aside>
+    <main class="c_m_9 c_6">
+        <h2>역대 공인구</h2>
+        <section>
+            <div><img src="ball1.jpg"><br>2009/2010</div>
+            <div><img src="ball2.jpg"><br>2010/2011</div>
+            <div><img src="ball3.jpg"><br>2011/2012</div>
+            <div><img src="ball4.jpg"><br>2012/2013</div>
+        </section>
+        <section>
+            <div><img src="ball5.jpg"><br>2013/2014</div>
+            <div><img src="ball6.jpg"><br>2014/2015</div>
+            <div><img src="ball7.jpg"><br>2015/2016</div>
+            <div><img src="ball8.jpg"><br>2016/2017</div>
+        </section>
+        <section>
+            <div><img src="ball9.jpg"><br>2017/2018</div>
+            <div><img src="ball10.jpg"><br>2018/2019</div>
+            <div><img src="ball11.jpg"><br>2019/2020</div>
+            <div><img src="ball12.jpg"><br>2020/2021</div>
+        </section>
+        <section>
+            <div><img src="ball13.jpg"><br>2021/2022</div>
+            <div><img src="ball14.jpg"><br>2022/2023</div>
+            <div><img src="ball15.jpg"><br>2023/2024</div>
+            <div><img src="ball16.jpg"><br>2024/2025</div>
+        </section>
+    </main>
+    <div class="clear"></div>
+    <footer class="c12">
+        <h3>COPYRIGHT(C) Football Dictionary All Rights Reserved.</h3>
+    </footer>
+</body>
+</html>

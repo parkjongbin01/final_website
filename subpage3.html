@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>역대 우승팀 순위</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: white;
+        }
+        .clear {
+            clear: both;
+        }
+        [class*="c_"] {
+            float: left;
+            padding: 10px;
+        }
+        /* 너비가 600픽셀 미만인 디바이스를 위한 기본 설정 */
+        [class*="c_"] {
+            width: 100%;
+        }
+        /* 너비가 600픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 600px) {
+            .c_m_1 {width: 8.33%;}
+            .c_m_2 {width: 16.66%;}
+            .c_m_3 {width: 25%;}
+            .c_m_4 {width: 33.33%;}
+            .c_m_5 {width: 41.66%;}
+            .c_m_6 {width: 50%;}
+            .c_m_7 {width: 58.33%;}
+            .c_m_8 {width: 66.66%;}
+            .c_m_9 {width: 75%;}
+            .c_m_10 {width: 83.33%;}
+            .c_m_11 {width: 91.66%;}
+            .c_m_12 {width: 100%;}
+        }
+        /* 너비가 768픽셀 이상인 디바이스 */
+        @media only screen and (min-width: 768px) {
+            .c_1 {width: 8.33%;}
+            .c_2 {width: 16.66%;}
+            .c_3 {width: 25%;}
+            .c_4 {width: 33.33%;}
+            .c_5 {width: 41.66%;}
+            .c_6 {width: 50%;}
+            .c_7 {width: 58.33%;}
+            .c_8 {width: 66.66%;}
+            .c_9 {width: 75%;}
+            .c_10 {width: 83.33%;}
+            .c_11 {width: 91.66%;}
+            .c_12 {width: 100%;}
+        }
+        header {
+            height: 80px;
+            border-bottom: solid 5px green;
+        }
+        header img {
+            float: left;
+        }
+        header h2 {
+            float: left;
+            color: green;
+            margin: 20px 0 0 5px;
+        }
+        aside {
+            background-color: white;
+            float: left;
+        }
+        nav {
+            margin: 5px;
+            margin-bottom: 50px;
+        }
+        nav li {
+            padding: 10px;
+            margin: 5px;
+            background-color: green;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+            color: white;
+        }
+        main {
+            border-left: solid 5px green;
+            float: left;
+            margin: 5px;
+        }
+        main h2 {
+            margin-left: 20px;
+        }
+        section {
+            margin: 5px;
+        }
+        section img {
+            width: 200px;
+            height: 200px;
+        }
+        section div {
+            text-align: center;
+            float: left;
+            margin: 5px;
+        }
+        footer {
+            height: 80px;
+            margin: 5px;
+            background-color: #eeeeee;
+        }
+        footer h3 {
+            padding-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="c12">
+        <a href="index.html"><img src="logo.jpg"></a>
+        <h2>Football Dictionary</h2>
+    </header>
+    <aside class="c_m_12 c_3">
+    <nav>
+        <ul>
+            <li><a href="subpage1.html">우승 트로피</a></li>
+            <li><a href="subpage2.html">역대 공인구</a></li>
+            <li><a href="subpage3.html">역대 우승팀 순위</a></li>
+            <li><a href="subpage4.html">역대 득점 순위</a></li>
+            <li><a href="subpage5.html">한국인 선수 기록</a></li>
+        </ul>
+    </nav>
+    </aside>
+    <main class="c_m_9 c_6">
+        <h2>역대 우승팀 순위</h2>
+        <section>
+            <div><img src="sevilla.jpg"><br>1위: 세비야fc<br>(7회 우승)</div>
+            <div><img src="inter.jpg"><br>공동 2위: 인테르<br>(3회 우승)</div>
+            <div><img src="spurs.jpg"><br>공동 2위: 토트넘<br>(3회 우승)</div>
+            <div><img src="liverful.jpg"><br>공동 2위: 리버풀 fc<br>(3회 우승)</div>
+        </section>
+        <section>
+            <div><img src="juventus.jpg"><br>공동 2위: 유벤투스<br>(3회 우승)</div>
+            <div><img src="atm.jpg"><br>공동 2위: 아틀레티코 마드리드<br>(3회 우승)</div>
+            <div><img src="bah.jpg"><br>공동 7위: 묀헨글라트바흐<br>(2회 우승)</div>
+            <div><img src="feye.jpg"><br>공동 7위: 페예노르트<br>(2회 우승)</div>
+        </section>
+        <section>
+            <div><img src="frank.jpg"><br>공동 7위: 프랑크푸르트<br>(2회 우승)</div>
+            <div><img src="ifk.jpg"><br>공동 7위: IFK 예테보리<br>(2회 우승)</div>
+            <div><img src="real.jpg"><br>공동 7위: 레알 마드리드<br>(2회 우승)</div>
+            <div><img src="parma.jpg"><br>공동 7위: 파르마 칼초<br>(2회 우승)</div>
+        </section>
+        <section>
+            <div><img src="fcp.jpg"><br>공동 7위: 포르투 fc<br>(2회 우승)</div>
+            <div><img src="chelsea.jpg"><br>공동 7위: 첼시 fc<br>(2회 우승)</div>
+        </section>
+    </main>
+    <div class="clear"></div>
+    <footer class="c12">
+        <h3>COPYRIGHT(C) Football Dictionary All Rights Reserved.</h3>
+    </footer>
+</body>
+</html>
